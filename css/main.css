@@ -7,7 +7,115 @@ html {
   box-sizing: inherit;
 }
 
-div {
-  padding: .5rem;
+a {
+  padding: .4em .75em .3em;
   text-align: center;
+  border-radius: 8px;
+  max-width: 3px;
+  display: block;
+}
+
+.btn {
+  text-align: center;
+  border-radius: 8px;
+  max-width: 3px;
+  display: block;
+}
+
+.btn-hover {
+
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-small:hover {
+
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-big:hover {
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-subtle .btn {
+  color: #fff;
+  background-color: #ccc;
+}
+
+.btn-subtle .btn .btn-small {
+  color: #fff;
+  background-color: #ccc;
+}
+
+.btn-subtle .btn .btn-big {
+  color: #fff;
+  background-color: #ccc;
+}
+
+.btn-ghost:hover .btn {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn-ghost .btn {
+  color: #000;
+  background-color: #fff;
+  border-width: 3px;
+}
+
+.btn-ghost .btn .btn-small {
+  color: #000;
+  background-color: #fff;
+  border-width: 3px;
+}
+
+.btn-ghost .btn .btn-big {
+  color: #000;
+  background-color: #fff;
+  border-width: 3px;
+}
+
+.btn-primary:hover .btn {
+  background-color: #000;
+}
+
+.btn-primary .btn {
+  color: #fff;
+  background-color: #333;
+}
+
+.btn-primary .btn .btn-small {
+  color: #fff;
+  background-color: #333;
+}
+
+.btn-primary .btn .btn-big {
+  color: #fff;
+  background-color: #333;
+}
+
+.btn-warning:hover .btn {
+  background-color: #933;
+}
+
+.btn-warning .btn {
+  color: #fff;
+  background-color: #f33;
+}
+
+.btn-warning .btn .btn-small {
+  color: #fff;
+  background-color: #f33;
+}
+
+.btn-warning .btn .btn-big {
+  color: #fff;
+  background-color: #f33;
 }
