@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
-  font-size: 1.125rem;
 }
 
 *, *::before, *::after {
@@ -10,28 +9,32 @@ html {
 
 body {
   text-align: center;
+  font-size: 1.125rem;
 }
 
 div {
   padding: .5rem;
-  text-align:center;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
 }
 
-btn {
-  display: inline-block;
+.btn {
   border-style: solid;
   color: #fff;
   background-color: #333;
   border-color: #333;
-  font-size: 1.125rem;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
-  border-width: 3px;
+  display: inline-block;
+}
 
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
 
 .btn-small {
@@ -42,102 +45,38 @@ btn {
   font-size: 1.5rem;
 }
 
-/* part one*/
-
-.btn-primary {
-  color: #fff;
-  background-color: #333;
-}
-
-.btn-primary:hover {
-  background-color: #000;
-}
-
 .btn-subtle {
+  border-style: solid;
   color: #fff;
   background-color: #ccc;
+  display: inline-block;
 }
 
-.btn-subtle:hover{
+.btn-subtle:hover {
   background-color: #666;
 }
 
 .btn-ghost {
+  border-style: solid;
   color: #333;
   background-color: #fff;
-  border-color: #f33;
+  border-color: #333;
+  display: inline-block;
 }
 
 .btn-ghost:hover {
   background-color: #666;
+  color: #fff;
+  border-color: #666;
 }
 
 .btn-warning {
+  display: inline-block;
+  border-style: solid;
   color: #fff;
   background-color: #f33;
 }
 
 .btn-warning:hover {
   background-color: #933;
-}
-
-/* part two */
-
-.btn-primary .btn-small {
-  color: #fff;
-  background-color: #333;
-}
-
-.pbs .btn-small:hover {
-  background-color: #000;
-}
-
-.sbs .btn-small {
-  color: #fff;
-  background-color: #ccc;
-}
-
-.sbs .btn-small:hover {
-  background-color: #666;
-}
-
-.gbs .btn-small {
-  color: #333;
-  background-color: #fff;
-  border-color: #f33;
-}
-
-.gbs .btn-small:hover {
-  background-color: #666;
-}
-
-.wbs .btn-small {
-  color: #fff;
-  background-color: #f33;
-}
-
-.wbs .btn-small:hover {
-  background-color: #933;
-}
-
-/* part three */
-
-.pbb .btn-big {
-  color: #fff;
-  background-color: #333;
-}
-
-.sbb .btn-big {
-  color: #fff;
-  background-color: #ccc;
-}
-
-.gbb .btn-big {
-  color: #fff;
-  background-color: #fff;
-}
-
-.wbb .btn-big {
-  color: #fff;
-  background-color: #f33;
 }
