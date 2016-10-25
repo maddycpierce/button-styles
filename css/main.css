@@ -12,14 +12,16 @@ body {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
+.btn {
+
 }
 
-.btn {
+a {
   padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .btn-small {
@@ -30,44 +32,102 @@ a {
   font-size: 1.5rem;
 }
 
-.one .btn {
+/* part one*/
+
+.btn-primary {
   color: #fff;
+  background-color: #333;
 }
 
-.two .btn {
+.btn-primary:hover {
+  background-color: #000;
+}
+
+.btn-subtle {
   color: #fff;
+  background-color: #ccc;
 }
 
-.three .btn {
+.btn-subtle:hover{
+  background-color: #666;
 }
 
-.four .btn {
+.btn-ghost {
+  color: #333;
+  background-color: #fff;
+  border-color: #f33;
 }
 
-.five .btn .btn-small {
+.btn-ghost:hover {
+  background-color: #666;
+}
+
+.btn-warning {
   color: #fff;
+  background-color: #f33;
 }
 
-.six .btn .btn-small {
+.btn-warning:hover {
+  background-color: #933;
+}
+
+/* part two */
+
+.btn-primary {
   color: #fff;
+  background-color: #333;
 }
 
-.seven .btn .btn-small {
+.pbs .btn-small:hover {
+  background-color: #000;
 }
 
-.eight .btn .btn-small {
-}
-
-.nine .btn .btn-big {
+.sbs .btn-small {
   color: #fff;
+  background-color: #ccc;
 }
 
-.ten .btn .btn-big {
+.sbs .btn-small:hover {
+  background-color: #666;
+}
+
+.gbs .btn-small {
+  color: #333;
+  background-color: #fff;
+  border-color: #f33;
+}
+
+.gbs .btn-small:hover {
+  background-color: #666;
+}
+
+.wbs .btn-small {
   color: #fff;
+  background-color: #f33;
 }
 
-.eleven .btn .btn-big {
+.wbs .btn-small:hover {
+  background-color: #933;
 }
 
-.twelve .btn .btn-big {
+/* part three */
+
+.pbb .btn-big {
+  color: #fff;
+  background-color: #333;
+}
+
+.sbb .btn-big {
+  color: #fff;
+  background-color: #ccc;
+}
+
+.gbb .btn-big {
+  color: #fff;
+  background-color: #fff;
+}
+
+.wbb .btn-big {
+  color: #fff;
+  background-color: #f33;
 }
