@@ -1,121 +1,73 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  font-size: 1.125rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-a {
-  padding: .4em .75em .3em;
+body {
   text-align: center;
-  border-radius: 8px;
-  max-width: 3px;
-  display: block;
+}
+
+a {
+  text-decoration: none;
 }
 
 .btn {
-  text-align: center;
+  padding: .4em .75em .3em;
   border-radius: 8px;
-  max-width: 3px;
-  display: block;
-}
-
-.btn-hover {
-
+  border-width: 3px;
 }
 
 .btn-small {
   font-size: .875rem;
 }
 
-.btn-small:hover {
-
-}
-
 .btn-big {
   font-size: 1.5rem;
 }
 
-.btn-big:hover {
-
-.btn-subtle:hover {
-  background-color: #666;
-}
-
-.btn-subtle .btn {
-  color: #fff;
-  background-color: #ccc;
-}
-
-.btn-subtle .btn .btn-small {
-  color: #fff;
-  background-color: #ccc;
-}
-
-.btn-subtle .btn .btn-big {
-  color: #fff;
-  background-color: #ccc;
-}
-
-.btn-ghost:hover .btn {
-  background-color: #666;
+.one .btn {
   color: #fff;
 }
 
-.btn-ghost .btn {
-  color: #000;
-  background-color: #fff;
-  border-width: 3px;
-}
-
-.btn-ghost .btn .btn-small {
-  color: #000;
-  background-color: #fff;
-  border-width: 3px;
-}
-
-.btn-ghost .btn .btn-big {
-  color: #000;
-  background-color: #fff;
-  border-width: 3px;
-}
-
-.btn-primary:hover .btn {
-  background-color: #000;
-}
-
-.btn-primary .btn {
+.two .btn {
   color: #fff;
-  background-color: #333;
 }
 
-.btn-primary .btn .btn-small {
+.three .btn {
+}
+
+.four .btn {
+}
+
+.five .btn .btn-small {
   color: #fff;
-  background-color: #333;
 }
 
-.btn-primary .btn .btn-big {
+.six .btn .btn-small {
   color: #fff;
-  background-color: #333;
 }
 
-.btn-warning:hover .btn {
-  background-color: #933;
+.seven .btn .btn-small {
 }
 
-.btn-warning .btn {
+.eight .btn .btn-small {
+}
+
+.nine .btn .btn-big {
   color: #fff;
-  background-color: #f33;
 }
 
-.btn-warning .btn .btn-small {
+.ten .btn .btn-big {
   color: #fff;
-  background-color: #f33;
 }
 
-.btn-warning .btn .btn-big {
-  color: #fff;
-  background-color: #f33;
+.eleven .btn .btn-big {
+}
+
+.twelve .btn .btn-big {
 }
