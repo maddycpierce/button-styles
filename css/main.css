@@ -27,11 +27,9 @@ a {
 }
 
 .btn {
-  border-style: solid;
-  color: #fff;
-  background-color: #333;
-  border-color: #333;
   display: inline-block;
+  font-size: 1.125rem;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -48,7 +46,6 @@ a {
 }
 
 .btn-subtle {
-  border-style: solid;
   color: #fff;
   background-color: #ccc;
 }
@@ -58,10 +55,8 @@ a {
 }
 
 .btn-ghost {
-  border-style: solid;
   color: #333;
   background-color: #fff;
-  border-color: #333;
 }
 
 .btn-ghost:hover {
@@ -71,7 +66,6 @@ a {
 }
 
 .btn-warning {
-  border-style: solid;
   color: #fff;
   background-color: #f33;
 }
@@ -80,31 +74,27 @@ a {
   background-color: #933;
 }
 
-div {
-  padding: text-align
-}
 .s, .w, .p {
-  display:inline-block;border,
-  raidus
-  padding-right: text-dec
-
-.g change border
+  display: inline-block;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  padding: .4em .75em .3em;
+  text-decoration: none;
 }
 
-btn {
-  display:
-  font-size
-  text-dec
+.g {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  border-color: #333;
 }
 
-btn-small
-font size
 
-btn big
-font size
 
-btn-subtle/ghost/warning
-bakcground color and color
 
 btn:hover
 margin:0
